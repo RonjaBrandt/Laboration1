@@ -18,7 +18,7 @@ public class MyMain {
             System.out.print("Vilken form vill du beräkna? (C)irkel, (T)riangel eller (R)ektangel: ");
             String choice = sc.nextLine();
             if (choice.equalsIgnoreCase("C")){
-                System.out.print("Skriv in Cirkelns radie: ");
+                System.out.print("Skriv in Cirkelns radie : ");
                 double radie = sc.nextDouble();
                 sc.nextLine();
                 Cirkel c = new Cirkel(radie);
